@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="css/style1.css" type="text/css" rel="stylesheet">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Формы</title>
+</head>
+<body>
+<form action="form.php" method="POST" name="form1">
+
+<fieldset>
+<legend>Ввод личных данных</legend>
+<p><label>Ваше Имя:<input type="text" name="name" size="30" maxlength="10"></label></p>
+<p><label>Ваш пароль:<input type="password" name="password" size="30" maxlength="8" minlength="4"></label></p>
+</fieldset>
+
+<fieldset>
+<legend>Вопросы</legend>
+<p>Любите ли вы эканомить время ?</p>
+<label>Yas<input type="radio" name="time" value="Yas" checked></label> <label>No<input type="radio" name="time" value="No"></label> 
+
+
+
+
+<p><b>Что бы вы выбрали ?!</b></P
+<p>
+<label><input type="checkbox" name="money">Деньги</label>
+<label><input type="checkbox" name="time" checked="">Время</label>
+<label><input type="checkbox" name="happiness">счастья</label>
+<label><input type="checkbox" name="love" /*disabled потухание /*checkbox */> любовь</label>
+</P> 
+
+
+
+<p>Сколько часов вы спите?</p>
+<select name="sleep" /*size="3" */ >
+    <option >3</option>
+	<option>4</option>
+	<option>5</option>
+	<option selected>6</option>
+	<option>7</option>
+	<option>8</option>
+	<option>8+</option>
+</select>
+
+
+
+<p> <label for="text">Что такое Успех?</label> </p>
+
+<textarea name="text" cols="50" rows="6" id="text"  /*readonly /*только для чтенья*/>Введите текст...</textarea>
+</fieldset>
+
+
+<p><input type="reset" name="reset" value="Сброс"><input type="submit" name="submit" value="Отправить"></p>
+
+<p><input  type="image" src="img/ibutton.png" name="imagebaton"></p>
+
+<p><input  type="button"  value="кнопка"  name="button""></p>
+
+
+
+
+<p><input type="file" name="file" size="55" maxlength="35"></p>
+
+
+
+<p> <input type="date" name="date"></p>
+<p> <input type="time" name="time"></p>
+
+
+
+
+	
+</form>
+
+<video width="300" height="400"  controls="controls">
+
+<source src="mp4/Дура.mp4" type="video/mp4">
+	
+
+</video>
+
+<br><a href="mp4/Дура.mp4" download >Skachka!!!</a></br>
+
+
+<p>
+<audio controls="controls">
+<source src="mp3/Basta_-_Papa_What0s_Up.mp3" type="audio/mp3">
+	
+</audio>
+</p>
+
+</body>
+</html>
